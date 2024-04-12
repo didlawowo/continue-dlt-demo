@@ -1,0 +1,13 @@
+{
+    "tabAutocompleteModel": {
+        "title": "Tab Autocomplete Model",
+        "provider": "ollama",
+        "model": "starcoder:3b",
+        "apiBase": "https://<my endpoint>"
+    },
+    "tabAutocompleteOptions": {
+        "useCopyBuffer": false,
+        "maxPromptTokens": 400,
+        "prefixPercentage": 0.5
+    }
+}

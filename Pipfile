@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+huggingface-hub = "==0.21.3"
+dlt = {editable = true, ref = "3a007a427aeff8fe79ec077d1a04aff786fdbe66", git = "git+https://github.com/dlt-hub/dlt.git"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+python_full_version = "3.10.0"
